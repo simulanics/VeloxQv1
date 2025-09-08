@@ -1,0 +1,67 @@
+{
+  "mode": "solve_qubo",
+  "timestamp_utc_s": 1757344225.4019687,
+  "qubo": {
+    "n": 200,
+    "has_b": true
+  },
+  "config": {
+    "steps": 6000,
+    "restarts": 5,
+    "sample_every": 10,
+    "beta0": 0.1,
+    "beta_max": 8.0,
+    "noise0": 0.01,
+    "gamma": 0.2,
+    "dt_autotuned": true,
+    "plateau_patience": 200,
+    "polish_iters": 2000,
+    "seed": 42
+  },
+  "args": {
+    "cmd": "solve_qubo",
+    "infile": "large_qubo_200.npz",
+    "steps": 6000,
+    "restarts": 5,
+    "sample_every": 10,
+    "beta0": 0.1,
+    "beta_max": 8.0,
+    "noise0": 0.01,
+    "gamma": 0.2,
+    "dt": null,
+    "plateau": 200,
+    "polish": 2000,
+    "seed": 42,
+    "out": "sol.npy",
+    "exact": true,
+    "nmax": 22,
+    "plot": "energy.png",
+    "save_history_npy": "hist.npy",
+    "save_history_csv": "hist.csv",
+    "save_run_json": "run.json",
+    "quiet": false
+  },
+  "results": {
+    "final_energy": -655.4349906860145,
+    "wall_time_s": 0.7121891975402832,
+    "integration_dt": 0.04247702364499385,
+    "local_opt_certificate_min_dE": 0.038611792788693755,
+    "exact": {
+      "ran": false,
+      "opt_energy": null,
+      "gap": null,
+      "match_solution": null,
+      "time_s": null
+    }
+  },
+  "artifacts": {
+    "plot_path": "energy.png",
+    "history_npy": "hist.npy",
+    "history_csv": "hist.csv",
+    "solution_npy": "sol.npy",
+    "qubo_npz": "large_qubo_200.npz"
+  },
+  "versions": {
+    "numpy": "2.2.6"
+  }
+}

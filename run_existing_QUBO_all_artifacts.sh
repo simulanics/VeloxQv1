@@ -1,0 +1,1 @@
+python veloxq_reconstructed.py solve_qubo --in ./data/example_qubo.npz --steps 6000 --restarts 5 --plot energy.png --save-history-npy hist.npy --save-history-csv hist.csv --out sol.npy --save-run-json run.json --exact
