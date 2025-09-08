@@ -39,9 +39,7 @@ A fast, **physics-inspired** optimizer for QUBO / Ising problems with verificati
 
 * A **VeloxQ-style** optimizer for **QUBO** (Quadratic Unconstrained Binary Optimization):
 
-  $$
-    \min_{x\in\{0,1\}^n} \; x^\top Q x \;+\; b^\top x
-  $$
+  $\min_{x\in\{0,1\}^n} \; x^\top Q x \;+\; b^\top x$
 * Implemented in a single Python module: `veloxq_reconstructed.py`.
 * Packs in:
 
