@@ -1,0 +1,120 @@
+C:\Users\mcomb\Documents\GitHub\VeloxQv1\real-world-use-case>python 20_newsgroup_demo.py
+[DATA] Loading 20 Newsgroups…
+[RED ] Building redundancy matrix (cosine, top-K)…
+
+[SWEEP] k=50
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=14.335679
+[VXQ] restart 2/6: incumbent E=14.335679
+[VXQ] restart 3/6: incumbent E=14.335679
+[VXQ] restart 4/6: incumbent E=13.436222
+[VXQ] restart 5/6: incumbent E=13.436222
+[VXQ] restart 6/6: incumbent E=13.436222
+[VXQ] polish: Δ=+13.517754 → final E=-0.081531
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=25.323111
+[VXQ] restart 2/6: incumbent E=25.323111
+[VXQ] restart 3/6: incumbent E=25.323111
+[VXQ] restart 4/6: incumbent E=22.525875
+[VXQ] restart 5/6: incumbent E=22.525875
+[VXQ] restart 6/6: incumbent E=22.525875
+[VXQ] polish: Δ=+22.625440 → final E=-0.099566
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=45.100488
+[VXQ] restart 2/6: incumbent E=45.100488
+[VXQ] restart 3/6: incumbent E=43.636239
+[VXQ] restart 4/6: incumbent E=43.636239
+[VXQ] restart 5/6: incumbent E=43.636239
+[VXQ] restart 6/6: incumbent E=43.636239
+[VXQ] polish: Δ=+43.770366 → final E=-0.134127
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=74.853301
+[VXQ] restart 2/6: incumbent E=74.853301
+[VXQ] restart 3/6: incumbent E=74.853301
+[VXQ] restart 4/6: incumbent E=74.853301
+[VXQ] restart 5/6: incumbent E=74.853301
+[VXQ] restart 6/6: incumbent E=74.853301
+[VXQ] polish: Δ=+75.051344 → final E=-0.198043
+
+[SWEEP] k=100
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=13.112679
+[VXQ] restart 2/6: incumbent E=13.112679
+[VXQ] restart 3/6: incumbent E=13.112679
+[VXQ] restart 4/6: incumbent E=12.250222
+[VXQ] restart 5/6: incumbent E=12.250222
+[VXQ] restart 6/6: incumbent E=12.250222
+[VXQ] polish: Δ=+12.423972 → final E=-0.173749
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=23.121711
+[VXQ] restart 2/6: incumbent E=23.121711
+[VXQ] restart 3/6: incumbent E=23.121711
+[VXQ] restart 4/6: incumbent E=20.208045
+[VXQ] restart 5/6: incumbent E=20.208045
+[VXQ] restart 6/6: incumbent E=20.208045
+[VXQ] polish: Δ=+20.460762 → final E=-0.252716
+
+[SWEEP] k=150
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=11.889679
+[VXQ] restart 2/6: incumbent E=11.889679
+[VXQ] restart 3/6: incumbent E=11.889679
+[VXQ] restart 4/6: incumbent E=11.866946
+[VXQ] restart 5/6: incumbent E=11.866946
+[VXQ] restart 6/6: incumbent E=11.601399
+[VXQ] polish: Δ=+11.911088 → final E=-0.309689
+
+[SWEEP] k=200
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=10.666679
+[VXQ] restart 2/6: incumbent E=10.666679
+[VXQ] restart 3/6: incumbent E=10.666679
+[VXQ] restart 4/6: incumbent E=10.515541
+[VXQ] restart 5/6: incumbent E=9.743771
+[VXQ] restart 6/6: incumbent E=9.743771
+[VXQ] polish: Δ=+10.236147 → final E=-0.492376
+
+[SWEEP] k=300
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=8.220679
+[VXQ] restart 2/6: incumbent E=8.220679
+[VXQ] restart 3/6: incumbent E=8.220679
+[VXQ] restart 4/6: incumbent E=8.200946
+[VXQ] restart 5/6: incumbent E=8.200946
+[VXQ] restart 6/6: incumbent E=8.200946
+[VXQ] polish: Δ=+9.199330 → final E=-0.998384
+
+[SWEEP] k=400
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=5.774679
+[VXQ] restart 2/6: incumbent E=5.774679
+[VXQ] restart 3/6: incumbent E=5.774679
+[VXQ] restart 4/6: incumbent E=5.774679
+[VXQ] restart 5/6: incumbent E=5.527443
+[VXQ] restart 6/6: incumbent E=5.527443
+[VXQ] polish: Δ=+7.224412 → final E=-1.696969
+
+[SWEEP] k=500
+[VXQ] n=2500 | steps=7000 | restarts=6 | dt=0.0015
+[VXQ] restart 1/6: incumbent E=3.328679
+[VXQ] restart 2/6: incumbent E=3.328679
+[VXQ] restart 3/6: incumbent E=3.328679
+[VXQ] restart 4/6: incumbent E=3.328679
+[VXQ] restart 5/6: incumbent E=3.055570
+[VXQ] restart 6/6: incumbent E=3.055570
+[VXQ] polish: Δ=+5.643369 → final E=-2.587799
+
+[RESULT] k*=400 | selected=398/2500 | best_model=LinearSVC(C=2.0) | acc=0.8858
+         energy=-1.696969 | 1-opt cert=1.56479e-06 | P_used=0.02
+
+Top selected words:
+ ['space' 'game' 'hockey' 'team' 'graphics' 'play' 'nhl' 'season' 'games'
+ 'players' 'league' 'orbit' 'nasa' 'teams' 'playoffs' 'launch' 'earth'
+ 'rangers' 'moon' 'player' 'pittsburgh' 'image' 'file' 'cup' 'win'
+ 'detroit' 'hi' 'thanks' 'leafs' 'shuttle' 'playoff' 'played' 'files'
+ 'spacecraft' 'ice' 'montreal' 'islanders' 'playing' 'toronto' 'jersey'
+ 'bruins' 'program' 'windows' 'lunar' 'computer' 'code' 'fans' 'devils'
+ 'scoring' 'vga']
+
+[FILES] Plot: selected_features.png
+[FILES] Report: feature_selection_report.html

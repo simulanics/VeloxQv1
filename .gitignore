@@ -179,3 +179,4 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+real-world-use-case/20_newsgroup_demo-master1.py
