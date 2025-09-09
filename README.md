@@ -95,6 +95,7 @@ $$
 
 
    where $E(x)=x^\top Q x + b^\top x$, and $R(x)$ is a **double-well** term that prefers values near 0 or 1.
+
 3. $\beta(t)$ increases over time (anneal), coaxing the system toward binary corners.
 4. We **sample**, **threshold**, and **retain the best** solution found; add **kicks** if progress plateaus; and do **greedy 1-opt** polishing at the end.
 5. Small instances can be **exactly verified**; larger ones get a strong **local-opt** certificate.
