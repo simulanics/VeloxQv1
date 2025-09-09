@@ -85,12 +85,14 @@ This is a **research POC** you can study, extend, and compare against your favor
 1. You supply a QUBO $Q$ (symmetric) and optional $b$.
 2. The solver runs **continuous-state dynamics** with velocity (momentum) and damping:
 
-   $$
-   \begin{aligned}
-   \dot v &\leftarrow -\nabla E(x) - \beta(t)\nabla R(x) - \gamma v \\
-   x &\leftarrow \mathrm{clip}\big(x + \Delta t \cdot v,\; [0,1]\big)
-   \end{aligned}
-   $$
+$$
+\begin{aligned}
+\dot{\mathbf v} &\leftarrow -\,\nabla E(\mathbf x)\;-\;\beta(t)\,\nabla R(\mathbf x)\;-\;\gamma\,\mathbf v \\
+\mathbf x &\leftarrow \mathrm{clip}\!\big(\mathbf x + \Delta t \cdot \mathbf v,\,[0,1]\big)
+\end{aligned}
+$$
+
+
 
    where $E(x)=x^\top Q x + b^\top x$, and $R(x)$ is a **double-well** term that prefers values near 0 or 1.
 3. $\beta(t)$ increases over time (anneal), coaxing the system toward binary corners.
