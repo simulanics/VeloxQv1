@@ -130,7 +130,7 @@ Place the main file in your working directory:
 
 Optional example scripts (nice to have, but not required):
 
-* `run_example.py` (6-var QUBO end-to-end demo)
+* `run_small_example.py` (6-var QUBO end-to-end demo)
 * `run_large_demo.py` (n=200 MAX-CUT demo with plot and artifacts)
 
 ---
