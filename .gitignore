@@ -180,3 +180,4 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 real-world-use-case/20_newsgroup_demo-master1.py
+VELOXQ_NEWS.txt
